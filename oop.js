@@ -85,11 +85,28 @@ class Hobbit {
     this.hasRing = false;
   }
 }
-for (var i = 0; i < 4; i++) {
   var hobbit1 = new Hobbit("Frodo", "Silly");
-  console.log(hobbit1);
-   (for (var i = 0; i < 4; i++) {
-  console.log(i);
-}
-  hobbit1.changeage;
-    console.log(hobbit1);
+ console.log(hobbit1);
+  hobbit1.changeage = (0 + 1);
+console.log(hobbit1);
+if (this.age = 33) {
+var hobbit1 = new Hobbit("Frodo", "Silly");
+console.log(hobbit1);
+hobbit1.changeisAdult = ("true");
+console.log(hobbit1);
+} else {console.log("false");
+       }
+  if (this.age = 101) {
+var hobbit1 = new Hobbit("Frodo", "Silly");
+console.log(hobbit1);
+hobbit1.changeisOld = ("true");
+console.log(hobbit1);
+} else {console.log("false");
+       }
+ if (this.name = "Frodo") {
+var hobbit1 = new Hobbit("Frodo", "Silly");
+console.log(hobbit1);
+hobbit1.changehasRing = ("true");
+console.log(hobbit1);
+} else {console.log("false");
+       }
